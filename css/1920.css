@@ -1,0 +1,654 @@
+*	{
+	margin:				0px;
+	padding:			0px;
+	font-family:			'Neo Sans W01';
+	font-weight:			100;
+
+}
+
+
+
+body	{
+		/*background:		url('../graphic/1920/Hytte-1.jpg') no-repeat center center fixed;*/
+		background-color:	#000;
+		-webkit-background-size:	cover;
+		-moz-background-size: 	cover;
+		-o-background-size: 	cover;
+		background-size: 	cover;
+		overflow:		hidden;	
+		width:			100%;
+
+}
+
+img	{
+		border:			none;
+}
+
+#deaktiv	{
+		display:		block;
+		position:		absolute;
+		top:			0;
+		left:			0;
+		width:			100%;
+		height:			100%;
+		padding-top:200px;
+		-webkit-background-size:	cover;
+		-moz-background-size: 	cover;
+		-o-background-size: 	cover;
+		background-size: 	cover;
+/*		display:none;*/
+		z-index:		99;
+		font-size:		24px;
+		text-align:		center;
+		color:			white;
+		background:		center center no-repeat url('../a/graphic/1920/bakgrunn_admin.png') #1c303b;
+		
+}
+#deaktiv a{	color:white;}
+
+#wrapper, #wrapper2 {
+		display:		block;
+		position:		absolute;
+		top:			0;
+		left:			0;
+		width:			100%;
+		height:		100%;
+
+		-webkit-background-size:	cover;
+		-moz-background-size: 	cover;
+		-o-background-size: 	cover;
+		background-size: 	cover;
+		background-position:	center center;
+		display:none;
+}
+
+
+
+#wrapper_forside	{
+		display:		block;
+		position:		absolute;
+		top:			0;
+		left:			0;
+		width:			100%;
+		height:			100%;
+
+
+}
+
+
+#wrapper_forside div#frontmenu	{
+		background:		url('../graphic/1920/prikkelinje.png') repeat-x;
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			0%;
+		margin-left:		60px;
+		width:			220px;
+		color:			white;
+		font-size:		18px;
+		line-height:		35px;
+		padding-top:		14px;
+		text-shadow: 		0px 1px #000;
+		font-family:		'Neo Sans W01', 'Georgia';
+
+}
+
+#wrapper_forside div#frontmenu_block	{
+		display:		none;
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			0%;
+		margin-left:		60px;
+		width:			220px;
+		height:		100px;
+		z-index:		99;
+}
+
+#frontmenu a:hover	{
+	letter-spacing:		-0.05em;
+	font-family:			'Neo Sans W01 Bold';
+}
+
+
+#wrapper_forside a	{
+		text-decoration:	none;
+		color:			white;
+		outline:		none;
+}
+
+#wrapper_forside #levehytter	{
+
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			280px;
+		width:			444px;
+		height:		350px;
+		color:			white;
+		font-size:		18px;
+		line-height:		30px;
+		padding-top:		20px;
+		display:		none;
+		margin-top:		-75px;
+		font-family:		Georgia;
+		font-style:		Italic;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+
+}
+
+#wrapper_forside #levehytter span	{
+		font-family:		Georgia;
+}
+
+#wrapper_forside #levehytter_r	{
+
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			724px;
+		width:			444px;
+		color:			white;
+		font-size:		16px;
+		line-height:		30px;
+		padding-top:		20px;
+		opacity:		0;
+		margin-top:		-75px;
+		font-family:		'Georgia';
+		font-style:		Italic;
+		text-align:		justify;
+		
+
+}
+
+#wrapper_forside #pil_h	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_pil_h.png');
+		position: 		absolute;
+    		bottom: 		20px;
+    		right: 			20px;
+		width:			67px;
+		height:			121px;
+		display:		none;
+}
+
+#wrapper_forside #pil_h:hover	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_pil_h_h.png');
+}
+
+#wrapper_forside #pil_v	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_pil_v.png');
+		position: 		absolute;
+    		bottom: 		20px;
+    		right: 			129px;
+		width:			67px;
+		height:			121px;
+		display:		none;
+}
+
+#wrapper_forside #pil_v:hover	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_pil_v_h.png');
+}
+
+
+#wrapper_forside #kontakt	{
+
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			280px;
+		width:			444px;
+		color:			white;
+		font-size:		16px;
+		line-height:		30px;
+		padding-top:		20px;
+		display:		none;
+		margin-top:		-75px;
+		font-family:		'Georgia';
+		font-style:		Italic;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+}
+
+#wrapper_forside #seriene	{
+
+		position: 		absolute;
+    		top: 			55px;
+    		left: 			280px;
+		width:			222px;
+		color:			white;
+		font-size:		18px;
+		line-height:		30px;
+		padding-top:		20px;
+		display:		none;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+}
+
+#wrapper_forside #seriene a	{
+		display:		block;
+		width:			40px;
+		float:			left;
+		margin-right:		15px;
+}
+
+#wrapper_forside #seriene a:hover,#wrapper_forside #modellene a:hover	{
+	letter-spacing:		-0.05em;	        
+	font-family:			'Neo Sans W01 Bold';		
+}
+
+
+#wrapper_forside #modellene	{
+
+		position: 		absolute;
+    		top: 			55px;
+    		left: 			570px;
+		width:			504px;
+		color:			white;
+		font-size:		18px;
+		line-height:		30px;
+		padding-top:		20px;
+		display:		none;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+
+}
+
+#wrapper_forside #modellene a	{
+		display:		block;
+		width:			44px;
+		float:			left;
+}
+
+#btn_logo	{
+
+			position:	absolute;
+			top:		50%;
+			left:		60px;
+			margin-top:	-69px;
+			height:	48px;
+			width:		47px;
+			display:	block;
+			background-image: url('../graphic/1920/Logo.png');
+}
+
+
+/******* SERIEBOX ********/
+#box_serie	{
+		position:		fixed;
+		bottom:			0px;
+		left:			0px;
+		width:			100%;
+		height:			77px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;
+		line-height:		77px;
+		font-size:		35px;
+		font-family:		Georgia;
+		font-style:		italic;
+		display:		none;
+}
+
+#box_serie img 	{
+		vertical-align:		top;
+}
+
+#box_serie span	{
+		font-family:		Georgia;
+		font-style:		italic;
+		padding-left:		60px;
+}
+
+#box_serie_tekst 	{
+		position:		fixed;
+		bottom:			0px;
+		left:			150px;
+		width:			100%;
+		height:			77px;	
+		display:		inline;
+		font-size:		14px;
+		font-family:		Georgia;
+		font-style:		italic;
+		margin-left:		15px;
+		line-height:		15px;
+		width:			500px;
+		height:			52px;
+}
+
+
+
+
+#box_serie img 	{
+		left:150px;
+}
+
+#box_serie p 	{
+		position:		fixed;
+		bottom:			0px;
+		left:			380px;
+		width:			100%;
+		height:			77px;	
+		display:		inline;
+		font-size:		14px;
+		font-family:		Georgia;
+		font-style:		italic;
+		margin-left:		15px;
+		line-height:		15px;
+		width:			500px;
+		height:			52px;
+}
+
+
+/******* MODELBOX ********/
+#box_modell	{
+		position:		fixed;
+		bottom:			0px;
+		left:			0px;
+		width:			100%;
+		height:			77px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;
+		line-height:		77px;
+		font-size:		35px;
+		font-family:		Georgia;
+		font-style:		italic;
+		display:		none;
+}
+
+#box_modell_cont	{
+		position:		fixed;
+		bottom:			0px;
+		left:			160px;
+}
+
+#box_modell_cont span	{
+		font-size:		30px;
+		height:		77px;
+		line-height:		77px;
+		float:			left;
+		font-family:		Georgia;
+
+		
+}
+/*
+#box_modell div 	{
+		position:		fixed;
+		bottom:			0px;
+		left:			150px;
+		width:			100%;
+		height:			77px;	
+		display:		inline;
+		font-size:		14px;
+		font-family:		'Georgia';
+		font-style:		'italic';
+		margin-left:		15px;
+		line-height:		15px;
+		width:			500px;
+		height:			52px;
+}
+*/
+
+#box_modell_cont p img 	{
+		position:		relative;
+		top:			11px;
+		margin:			0px 5px;
+}
+
+#box_modell_cont p 	{
+/*		position:		fixed;
+		bottom:			0px;
+		left:			380px;*/
+		width:			100%;
+		height:			77px;	
+		display:		inline;
+		font-size:		16px;
+		font-style:		normal;
+		margin-left:		30px;
+		line-height:		77px;
+		width:			500px;
+		height:			52px;
+}
+
+#pil_liten_v	{
+		height:			77px;
+		width:			34px;
+		background:		no-repeat -5px 0px url('../graphic/1920/pil_liten_v.png');	
+		display:		block;
+		float:			left;
+		overflow:		hidden;
+		margin-left:		60px;
+}
+
+#pil_liten_h	{
+		height:			77px;
+		width:			34px;
+		background:		no-repeat -7px 0px url('../graphic/1920/pil_liten_h.png');	
+		display:		block;
+		float:			left;
+		overflow:		hidden;
+}
+
+
+
+
+#wrapper_forside #linje	{
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			280px;
+		background:		url('../graphic/1920/prikkelinje.png') repeat-x;
+		width:			0px;
+
+}
+
+#wrapper_forside .strek	{
+		display:		block;
+		background:		0px 15px url('../graphic/1920/prikkelinje.png') repeat-x;
+		width:			100%;
+		height:		30px;
+
+}
+
+#wrapper_forside h1	{
+		font-size:		46px;
+		padding-bottom:		41px;
+    		color:			white;
+		font-family:		'Neo Sans W01 Light';
+		font-style:		normal;
+
+}
+
+#dropdown_nedlastninger	{
+		position:		fixed;
+		bottom:			77px;
+		right:			152px;
+		width:			163px;
+		padding:		10px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;	
+		display:		none;
+		line-height:		25px;
+}
+
+#dropdown_nedlastninger_serie	{
+		position:		fixed;
+		bottom:			77px;
+		right:			40px;
+		width:			163px;
+		padding:		10px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;	
+		display:		none;
+		line-height:		25px;
+}
+
+#dropdown_fargevelger	{
+		position:		fixed;
+		bottom:			77px;
+		right:			258px;
+		width:			175px;
+		padding:		10px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;	
+		display:		none;
+}
+
+#dropdown_tegninger	{
+		position:		fixed;
+		bottom:			77px;
+		right:			335px;
+		width:			155px;
+		padding:		10px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;	
+		display:		none;
+		line-height:		25px;
+}
+
+#dropdown_del	{
+		position:		fixed;
+		bottom:			77px;
+		right:			40px;
+		width:			92px;
+		padding:		10px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;	
+		display:		none;
+		line-height:		25px;
+}
+
+#dropdown_nedlastninger_serie h1, #dropdown_nedlastninger h1, #dropdown_fargevelger h1, #dropdown_del h1, #dropdown_tegninger h1	{
+		font-weight:		100;
+		font-size:		18px;
+		border-bottom:		solid 1px;
+		padding-bottom:		5px;
+		margin-bottom:		4px;
+}
+
+#nedlastninger_btn_serie	{
+		background:		no-repeat url('../graphic/1920/se_hyttene.png');
+		float:			right;
+		display:		block;
+		height:			77px;
+		width:			183px;
+}
+
+#nedlastninger_btn_serie:hover	{
+		background:		no-repeat url('../graphic/1920/nedlastninger_h.png');
+}
+
+#nedlastninger_btn	{
+		background:		no-repeat url('../graphic/1920/nedlastninger.png');
+		float:			right;
+		display:		block;
+		height:			77px;
+		width:			183px;
+}
+
+/*#nedlastninger_btn:hover	{
+		background:		no-repeat url('../graphic/1920/nedlastninger_h.png');
+}*/
+
+#tegninger_btn	{
+		background:		no-repeat url('../graphic/1920/tegninger.png');
+		float:			right;
+		display:		block;
+		height:			77px;
+		width:			175px;
+}
+
+#tegninger_btn:hover	{
+		background:		no-repeat url('../graphic/1920/tegninger_h.png');
+}
+
+#del_btn	{
+		background:		no-repeat url('../graphic/1920/del.png');
+		float:			right;
+		display:		block;
+		height:			77px;
+		width:			112px;
+		margin-right:		40px;
+}
+
+#del_btn:hover	{
+		background:		no-repeat url('../graphic/1920/del_h.png');
+}
+
+
+#fargevelger_btn	{
+		background:		no-repeat url('../graphic/1920/fargevelger.png');
+		float:			right;
+		display:		block;
+		height:			77px;
+		width:			184px;
+}
+
+#fargevelger_btn:hover	{
+		background:		no-repeat url('../graphic/1920/fargevelger_h.png');
+}
+
+#knapper	{
+		position:		fixed;
+		bottom:		17px;
+    		left: 			280px;
+}
+
+
+.selected	{
+	letter-spacing:		-0.05em;
+	font-family:			'Neo Sans W01 Bold';
+}
+
+html,body	{
+		width:			100%;
+}
+/*
+img, div	{
+		border:			solid 1px;}
+*/
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	#box_modell_cont span	{
+			position:		relative;
+			top:			3px;
+	}
+
+	p,a, span, h1,h2,h3,h4,h5,h6,#levehytter,#box_serie_tekst {
+			opacity:		0.99;
+	}
+
+
+#wrapper_forside #seriene a:hover,#wrapper_forside #modellene a:hover	{
+	letter-spacing:		-0.07em;	        
+	font-family:			'Neo Sans W01 Bold';		
+}
+
+
+	#frontmenu a:first-child:hover	{
+		letter-spacing:		-0.07em;
+		font-family:			'Neo Sans W01 Bold';
+	}
+
+
+
+/*	#wrapper_forside #seriene a:hover,#wrapper_forside #modellene a:hover	{
+	/*	letter-spacing:		-1px;	        
+		font-family:			'Neo Sans W01 Bold';		
+	}
+*/
+
+
+#frontmenu a:hover	{
+	letter-spacing:		-0.07em;
+	font-family:			'Neo Sans W01 Bold';
+}
+
+.selected	{
+	letter-spacing:		-0.07em;
+	}
+	
+	#box_serie_label	{
+					position:		relative;
+					top:			1px;		
+	}
+
+
+}
+

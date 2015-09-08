@@ -1,0 +1,419 @@
+#wrapper_forside #pil_h	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_liten_pil_h.png');
+		position: 		absolute;
+    		bottom: 		10px;
+    		right: 			10px;
+		width:			58px;
+		height:			103px;
+		display:		none;
+}
+
+#wrapper_forside #pil_h:hover	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_liten_pil_h_h.png');
+}
+
+#wrapper_forside #pil_v	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_liten_pil_v.png');
+		position: 		absolute;
+    		bottom: 		10px;
+    		right: 			100px;
+		width:			58px;
+		height:			103px;
+		display:		none;
+}
+
+#wrapper_forside #pil_v:hover	{
+		background:		no-repeat 0px 0px url('../graphic/1920/piler/stor_liten_pil_v_h.png');
+}
+
+
+
+
+#wrapper_forside #levehytter	{
+
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			220px;
+		width:			340px;
+		height:		350px;
+		color:			white;
+		font-size:		14px;
+		line-height:		22px;
+		padding-top:		20px;
+		display:		none;
+		margin-top:		-75px;
+		font-family:		'Georgia';
+		font-style:		Italic;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+
+}
+
+
+#wrapper_forside #kontakt	{
+    		left: 			220px;
+		width:			350px;
+		line-height:		22px;
+		font-size:		13px;
+}
+
+#box_serie, #box_modell	{
+		height:		60px;
+		line-height:		60px;
+		font-size:		30px;
+}
+
+
+#box_serie img 	{
+		vertical-align:		top;
+		position:		relative;
+		top:			-8px;
+		left:130px;
+}
+
+
+#box_serie span	{
+		font-family:		Georgia;
+		font-style:		italic;
+		padding-left:		40px;
+}
+
+#box_serie_tekst 	{
+		position:		fixed;
+		bottom:		-15px;
+		left:			130px;
+		width:			100%;
+		display:		inline;
+		font-size:		14px;
+		font-family:		Georgia;
+		font-style:		italic;
+		margin-left:		15px;
+		line-height:		15px;
+		width:			500px;
+		height:		58px;
+}
+
+
+#box_serie p img 	{
+
+}
+
+#box_serie p 	{
+		position:		fixed;
+		bottom:			0px;
+		left:			380px;
+		width:			100%;
+		display:		inline;
+		font-size:		14px;
+		font-family:		Georgia;
+		font-style:		italic;
+		margin-left:		15px;
+		line-height:		15px;
+		width:			500px;
+		height:		52px;
+}
+
+
+
+
+/******* MODELBOX ********/
+#box_modell	{
+		position:		fixed;
+		bottom:			0px;
+		left:			0px;
+		width:			100%;
+		height:			60px;
+		background:		url('../graphic/1920/bakgrunn.png');
+		color:			white;
+		line-height:		60px;
+		font-size:		16px;
+		font-family:		Georgia;
+		font-style:		italic;
+		display:		none;
+}
+
+#box_modell_cont	{
+		position:		fixed;
+		bottom:		0px;
+		left:			130px;
+}
+
+#box_modell_cont span	{
+		font-size:		24px;
+		height:		60px;
+		line-height:		60px;
+		float:			left;
+		font-family:		Georgia;
+
+		[if Firefox] position:		relative;[endif]
+		[if Firefox] top:		-10px;[endif]
+}
+
+
+
+
+
+#box_modell_cont p img 	{
+		position:		relative;
+		top:			11px;
+		margin:			0px 5px;
+}
+
+#box_modell_cont p 	{
+		width:			100%;
+		height:		60px;	
+		display:		inline;
+		font-size:		14px;
+		font-style:		normal;
+		margin-left:		30px;
+		line-height:		60px;
+		width:			500px;
+		height:			52px;
+}
+
+
+#wrapper_forside #modellene	{
+
+		position: 		absolute;
+    		top: 			35px;
+    		left: 			440px;
+		width:			444px;
+		color:			white;
+		font-size:		15px;
+		line-height:		25px;
+		padding-top:		20px;
+		display:		none;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+
+}
+
+#btn_logo	{
+			left:		40px;
+			height:	48px;
+			width:		47px;
+			display:	block;
+			background: 	no-repeat 0px 12px url('../graphic/1440/Logo.png');
+}
+
+#wrapper_forside #modellene a	{
+		width:			35px;
+}
+
+#wrapper_forside h1	{
+		font-size:		38px;
+		padding-bottom:		41px;
+    		color:			white;
+		font-family:		'Neo Sans W01 Light';
+		font-style:		normal;
+
+}
+
+#wrapper_forside #seriene	{
+
+		position: 		absolute;
+    		top: 			35px;
+    		left: 			180px;
+		width:			240px;
+		color:			white;
+		font-size:		15px;
+		line-height:		25px;
+		padding-top:		20px;
+		display:		none;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+}
+
+#wrapper_forside div#frontmenu	{
+		background:		url('../graphic/1440/prikkelinje.png') repeat-x;
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			0%;
+		margin-left:		40px;
+		width:			110px;
+		color:			white;
+		font-size:		15px;
+		line-height:		25px;
+		padding-top:		14px;
+		text-shadow: 		0px 1px #000;
+		font-family:		'Neo Sans W01', 'Georgia';
+}
+
+/*#frontmenu a:hover	{
+		
+		font-family:			'Neo Sans W01 Bold';
+}*/
+/*
+.selected	{
+		font-family:			'Neo Sans W01 Bold';
+}
+*/
+#nedlastninger_btn_serie	{
+		background:		no-repeat url('../graphic/1440/se_hyttene.png');
+		float:			right;
+		display:		block;
+		height:		60px;
+		width:			140px;
+}
+
+#nedlastninger_btn_serie:hover	{
+		background:		no-repeat url('../graphic/1440/se_hyttene_h.png');
+}
+
+#nedlastninger_btn	{
+		background:		no-repeat url('../graphic/1440/nedlastninger.png');
+		float:			right;
+		display:		block;
+		height:		60px;
+		width:			140px;
+}
+
+
+#tegninger_btn	{
+		background:		no-repeat url('../graphic/1440/tegninger.png');
+		float:			right;
+		display:		block;
+		height:		60px;
+		width:			134px;
+}
+
+#tegninger_btn:hover	{
+		background:		no-repeat url('../graphic/1440/tegninger_h.png');
+}
+
+#del_btn	{
+		background:		no-repeat url('../graphic/1440/del.png');
+		float:			right;
+		display:		block;
+		height:		60px;
+		width:			86px;
+		margin-right:		40px;
+}
+
+#del_btn:hover	{
+		background:		no-repeat url('../graphic/1440/del_h.png');
+}
+
+#wrapper_forside #linje	{
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			153px;
+		background:		url('../graphic/1440/prikkelinje.png') repeat-x;
+		width:			0px;
+
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+#box_serie_tekst 	{
+		left:			140px;
+		}
+
+#box_serie img 	{
+		vertical-align:		top;
+		position:		relative;
+		top:			-8px;
+		left:135px;
+}
+}
+
+/*
+#wrapper_forside div#frontmenu	{
+		background:		url('../graphic/1440/prikkelinje.png') repeat-x;
+		position: 		absolute;
+    		top: 			50%;
+    		left: 			0%;
+		margin-left:		60px;
+		width:			140px;
+		color:			white;
+		font-size:		16px;
+		line-height:		30px;
+		padding-top:		14px;
+		text-shadow: 		0px 1px #000;
+		font-family:		'Neo Sans W01', 'Georgia';
+}
+
+#wrapper_forside #seriene	{
+
+		position: 		absolute;
+    		top: 			55px;
+    		left: 			220px;
+		width:			200px;
+		color:			white;
+		font-size:		16px;
+		line-height:		30px;
+		padding-top:		20px;
+		display:		none;
+		text-align:		justify;
+		text-shadow: 		0px 1px #000;
+}
+#wrapper_forside #seriene a	{
+		display:		block;
+		width:			30px;
+		float:			left;
+		margin-right:		15px;
+}
+*/
+
+#pil_liten_v	{
+		height:		60px;
+		width:			34px;
+		background:		no-repeat -5px 0px url('../graphic/1440/pil_liten_v.png');	
+		display:		block;
+		float:			left;
+		overflow:		hidden;
+		margin-left:		40px;
+}
+
+#pil_liten_h	{
+		height:		60px;
+		width:			34px;
+		background:		no-repeat -7px 0px url('../graphic/1440/pil_liten_h.png');	
+		display:		block;
+		float:			left;
+		overflow:		hidden;
+}
+
+
+
+#dropdown_nedlastninger	{
+		position:		fixed;
+		bottom:		60px;
+		right:			126px;
+		width:			120px;
+		font-size:		14px;
+}
+
+#dropdown_tegninger	{
+		position:		fixed;
+		bottom:		60px;
+		right:			266px;
+		width:			114px;
+		font-size:		14px;
+}
+
+#dropdown_del	{
+		bottom:		60px;
+		right:			40px;
+		width:			66px;
+		font-size:		14px;
+}
+
+#dropdown_nedlastninger_serie h1, #dropdown_nedlastninger h1, #dropdown_fargevelger h1, #dropdown_del h1, #dropdown_tegninger h1	{
+		font-weight:		100;
+		font-size:		16px;
+		border-bottom:		solid 1px;
+		padding-bottom:		5px;
+}
+
+#knapper	{
+    		left: 			240px;
+    		bottom:		12px;
+}
+
+#wrapper_forside .strek	{
+		background:		repeat-x 0px 15px url('../graphic/1440/prikkelinje.png');
+}
+
