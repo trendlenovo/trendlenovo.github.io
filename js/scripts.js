@@ -41,7 +41,7 @@ function leveHytterSlide(slide)	{
 		$('#levehytter').empty().append(data);
 	});
     */
-    $('#levehytter').empty().append("<h1>efefefef</h1><span>En sdfsdf.</span><br/><br/><br/> <div id='knapper'> <img src='graphic/1920/prikk_full.png' /> <a href='#levehytter_2'><img src='graphic/1920/prikk_tom.png' /></a> <a href='#levehytter_3'><img src='graphic/1920/prikk_tom.png' /></a> <a href='#levehytter_4'><img src='graphic/1920/prikk_tom.png' /></a> <a href='#levehytter_5'><img src='graphic/1920/prikk_tom.png' /></a> </div>");
+    $('#levehytter').empty().append("<h1>未来</h1><span>我们是认真的</span><br/><br/><br/> <!--<div id='knapper'> <img src='graphic/1920/prikk_full.png' /> <a href='#levehytter_2'><img src='graphic/1920/prikk_tom.png' /></a> <a href='#levehytter_3'><img src='graphic/1920/prikk_tom.png' /></a> <a href='#levehytter_4'><img src='graphic/1920/prikk_tom.png' /></a> <a href='#levehytter_5'><img src='graphic/1920/prikk_tom.png' /></a> </div>-->");
 	
 	api.options.transition = 6;	
 
